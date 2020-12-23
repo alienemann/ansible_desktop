@@ -25,7 +25,7 @@
       value: "'file://usr/share/backgrounds/ansible-wallpaper.jpg'"
 
 
-  - name: ser wallpaper position
+  - name: set wallpaper position
     become_user: andreas
     deconf:
     key: "/org/gnome/desktop/background/picture-options"
